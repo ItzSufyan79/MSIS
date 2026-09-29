@@ -1,0 +1,37 @@
+{
+  "name": "msis",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:live": "RUN_LIVE_TESTS=1 vitest run"
+  },
+  "dependencies": {
+    "framer-motion": "^12.38.0",
+    "hls.js": "^1.6.16",
+    "lucide-react": "^1.14.0",
+    "maplibre-gl": "^5.24.0",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "satellite.js": "^7.0.0",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/ws": "^8.18.1",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^2.1.9"
+  }
+}

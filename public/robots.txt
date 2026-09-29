@@ -1,0 +1,17 @@
+# MSIS Marine Spill Intelligence System
+# https://marine-spill-intelligence-system.vercel.app
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /api/scanner
+Disallow: /api/osint/*
+
+# Allow search engines to index the main page
+Allow: /api/health
+
+# Sitemap
+Sitemap: https://marine-spill-intelligence-system.vercel.app/sitemap.xml
+
+# Crawl-delay for respectful indexing
+Crawl-delay: 10
